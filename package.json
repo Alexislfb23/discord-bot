@@ -1,0 +1,19 @@
+{
+  "name": "botpn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "discord.js": "^13.1.0",
+    "hookcord": "^2.0.2",
+    "webhook-discord": "^3.7.8"
+  }
+}
+
