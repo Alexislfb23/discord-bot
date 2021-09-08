@@ -13,11 +13,11 @@
     "discord-webhook-node": "^1.1.8",
     "discord.js": "^13.1.0",
     "hookcord": "^2.0.2",
-    "webhook-discord": "^3.7.8"
+    "webhook-discord": "^3.7.8",
+    "pm2": "5.1.1"
   },
   "engines": {
-    "node": "16.9.0",
-    "pm2": "5.1.1"
+    "node": "16.9.0"
   }
 }
 
