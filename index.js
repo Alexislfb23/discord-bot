@@ -1,19 +1,22 @@
 const Discord = require("discord.js");
-const { Webhook } = require('discord-webhook-node');
+const { WebhookClient } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 
-const { Client, Intents, ReactionUserManager } = require('discord.js'); // 871554368309190706 PkAHm0jeT8N4Ksn3hR0pUbjNlMVltWcT91aJAmzxAM2zdZRiUxzU_8qI_obxRSkUJmk0
-
-const hook = new Webhook("https://discord.com/api/webhooks/871554368309190706/PkAHm0jeT8N4Ksn3hR0pUbjNlMVltWcT91aJAmzxAM2zdZRiUxzU_8qI_obxRSkUJmk0");
-
-
-// Create a new client instance
-const client = new Discord.Client({ 
+const { Client, Intents } = require('discord.js');
+const client = new Client({
     intents: [
-        Discord.Intents.FLAGS.GUILDS,
-        Discord.Intents.FLAGS.GUILD_MESSAGES,
+        "GUILDS",
+        "GUILD_MESSAGES",
+        "DIRECT_MESSAGES"
+    ],
+    partials: [
+    "CHANNEL"
     ]
 });
+
+const webhookClient = new Discord.WebhookClient({id: process.env.IDWEBHOOK, token: process.env.TOKENWEBHOOK})
+
+// Create a new client instanc
 
 
 // When the client is ready, run this code (only once)
@@ -194,6 +197,26 @@ client.on("messageCreate", function(message) {
                     mention.roles.add("862449447127482388")
                     message.reply("Vous venez de promouvoir " + args[0] + " en Adjoint de sécurité.")
                     message.guild.channels.cache.get("857308620961087518").send(":military_medal: Bienvenue à " + args[0] + " qui rejoint nos rangs au seins de la Police Nationale au grade d'Adjoint de sécurité, félicitation à vous. :military_medal:")
+                
+                
+                    const embed = new MessageEmbed()
+                    .setColor('#0099ff')
+                    .setThumbnail('https://cdn.discordapp.com/emojis/863564796354625576.png')
+                    .addFields(
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'TEST :' },
+                        { name: '----------------------------------------------', value: args[0] + "." },
+                        { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
+                    )
+                    .setFooter('LEtat Major de la Police Nationale', '');
+
+                    webhookClient.send({
+                        content: 'Webhook test',
+                        username: 'Police Nationale',
+                        avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
+                        embeds: [embed],
+                    }); 
+                    
+                    
                 }
             }
 
