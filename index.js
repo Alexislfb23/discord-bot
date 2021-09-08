@@ -409,4 +409,4 @@ client.on("messageCreate", function(message) {
 
 
 // Login to Discord with your client's token
-client.login(process.env.TOKEN); // ODgzNjY2MzY3OTczMjk4MTc2.YTNQbw.hEPTa-X01xJFtwGISg9EGYbhCWA
+client.login(process.env.TOKEN);
