@@ -61,7 +61,7 @@ client.on("messageCreate", function(message) {
                     message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
 
                     webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -84,7 +84,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                     message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                     webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -108,7 +108,7 @@ client.on("messageCreate", function(message) {
                     message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
 
                     webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -132,7 +132,7 @@ client.on("messageCreate", function(message) {
                     message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
 
                     webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -156,7 +156,7 @@ client.on("messageCreate", function(message) {
                     message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
 
                     webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -181,7 +181,7 @@ client.on("messageCreate", function(message) {
                     message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
 
                     webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -205,7 +205,7 @@ client.on("messageCreate", function(message) {
                     message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
 
                     webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -229,7 +229,7 @@ client.on("messageCreate", function(message) {
                      message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
 
                      webhookClient.send({
-                        content: null,
+                        content: 'Promotion:',
                         username: 'Police Nationale',
                         avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                         embeds: [embed],
@@ -279,7 +279,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
@@ -309,7 +309,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
@@ -339,7 +339,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
@@ -369,7 +369,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
@@ -399,7 +399,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
@@ -429,7 +429,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
@@ -459,7 +459,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
@@ -489,7 +489,7 @@ client.on("messageCreate", function(message) {
                     .setFooter('LEtat Major de la Police Nationale', '');
                 message.guild.channels.cache.get("857307937403961374").send({ embeds: [embed] });
                 webhookClient.send({
-                    content: null,
+                    content: 'Promotion:',
                     username: 'Police Nationale',
                     avatarURL: 'https://www.picclickimg.com/d/l400/pict/313426230039_/%C3%A9cusson-Police-Nationale-blanc-PVC-nouveau-logo-2021.jpg',
                     embeds: [embed],
