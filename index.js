@@ -272,7 +272,7 @@ client.on("messageCreate", function(message) {
                     .setColor('#0099ff')
                     .setThumbnail('https://images-ext-1.discordapp.net/external/aThF59PdsxDTVEdV9KOE8yDB8HVJRjaZ1cBlgN4nqDs/https/images-ext-1.discordapp.net/external/fQsgv8BGC4JVyYtIxTEbFLT7j1c6Em4c2_Kyj_hGokI/https/i.postimg.cc/W4s4kXNq/GPX1.png')
                     .addFields(
-                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Suite à la formation et une restitution des connaissances acquises, reçoit ses galons de Gardien de la paix :' },
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Pour des raisons qui resteront confidentielles, reçoit ses galons de Gardien de la paix :' },
                         { name: '----------------------------------------------', value: args[0] + "." },
                         { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
                     )
@@ -332,7 +332,7 @@ client.on("messageCreate", function(message) {
                     .setColor('#0099ff')
                     .setThumbnail('https://images-ext-1.discordapp.net/external/FRZwWgHIetkq-7D710KN6ND3c8ddvgPt_ARim0ygwfY/http/image.noelshack.com/fichiers/2021/34/7/1630249583-bg-titre.png')
                     .addFields(
-                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Suite à la formation et une restitution des connaissances acquises, reçoit ses galons de Brigadier :' },
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Pour des raisons qui resteront confidentielles, reçoit ses galons de Brigadier :' },
                         { name: '----------------------------------------------', value: args[0] + "." },
                         { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
                     )
@@ -362,7 +362,7 @@ client.on("messageCreate", function(message) {
                     .setColor('#0099ff')
                     .setThumbnail('https://images-ext-2.discordapp.net/external/yHJQ2U3-I31qmX4zGoA9sqIrH20qJQB4afWpZTgv7S0/https/images-ext-2.discordapp.net/external/lnsykYfxrYOEmdMK1-1Jc3G2Rb4AW-5OwSNol2ngGUI/https/i.postimg.cc/8PVsG12b/BC.png')
                     .addFields(
-                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Suite à la formation et une restitution des connaissances acquises, reçoit ses galons de Brigadier-Chef :' },
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Pour des raisons qui resteront confidentielles, reçoit ses galons de Brigadier-Chef :' },
                         { name: '----------------------------------------------', value: args[0] + "." },
                         { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
                     )
@@ -392,7 +392,7 @@ client.on("messageCreate", function(message) {
                     .setColor('#0099ff')
                     .setThumbnail('https://images-ext-1.discordapp.net/external/oHIpnUwHkYI1dSoqF0nNHq_drQQP9XZFxnH-ZtYXh7E/https/i.postimg.cc/RZSF3gV6/MJR.png')
                     .addFields(
-                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Suite à la formation et une restitution des connaissances acquises, reçoit ses galons de Major :' },
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Pour des raisons qui resteront confidentielles, reçoit ses galons de Major :' },
                         { name: '----------------------------------------------', value: args[0] + "." },
                         { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
                     )
@@ -422,7 +422,7 @@ client.on("messageCreate", function(message) {
                     .setColor('#0099ff')
                     .setThumbnail('https://images-ext-1.discordapp.net/external/ANw5ofGEmK7XDXEPnTudABVXgjBxvFbaKPsIZFyxUTA/https/i.postimg.cc/L8QHJRbw/LTN.png')
                     .addFields(
-                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Suite à la formation et une restitution des connaissances acquises, reçoit ses galons de Lieutenant :' },
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Pour des raisons qui resteront confidentielles, reçoit ses galons de Lieutenant :' },
                         { name: '----------------------------------------------', value: args[0] + "." },
                         { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
                     )
@@ -452,7 +452,7 @@ client.on("messageCreate", function(message) {
                     .setColor('#0099ff')
                     .setThumbnail('https://images-ext-2.discordapp.net/external/pbVhKexvBioQQoXXDUPtmflc5FI_LfsIXWMbh8_1SBI/https/i.postimg.cc/ZKTZjCkX/CNE.png')
                     .addFields(
-                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Suite à la formation et une restitution des connaissances acquises, reçoit ses galons de Capitaine :' },
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Pour des raisons qui resteront confidentielles, reçoit ses galons de Capitaine :' },
                         { name: '----------------------------------------------', value: args[0] + "." },
                         { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
                     )
@@ -482,7 +482,7 @@ client.on("messageCreate", function(message) {
                     .setColor('#0099ff')
                     .setThumbnail('https://cdn.discordapp.com/emojis/863564796354625576.png')
                     .addFields(
-                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Suite à la formation et une restitution des connaissances acquises, reçoit ses galons de Commandant :' },
+                        { name: ':star: Décret du ' + args[1] + ' portant sur la nomination d un policier', value: 'Pour des raisons qui resteront confidentielles, reçoit ses galons de Commandant :' },
                         { name: '----------------------------------------------', value: args[0] + "." },
                         { name: '----------------------------------------------', value: 'Félicitation à vous, bonne continuation et bon courage pour le reste de votre carrière'},
                     )
