@@ -36,7 +36,7 @@ client.on("messageCreate", function(message) {
     let mention = message.mentions.members.first();
 
     if(message.content.includes("!membres") && message.channelId == "887755721360429056"){
-        let membersWithRole = message.guild.roles.cache.get('862448360627765309').members;
+        let membersWithRole = message.guild.roles.get('862448360627765309').members;
         message.reply("Il y a actuellement " + membersWithRole + " membres bac.");
     }
 
