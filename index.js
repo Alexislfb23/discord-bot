@@ -35,6 +35,11 @@ client.on("messageCreate", function(message) {
     const user = message.mentions.users.first();
     let mention = message.mentions.members.first();
 
+    if(message.content.includes("!membres") && message.channelId == "887755721360429056"){
+        let membersWithRole = message.guild.roles.cache.get('862448360627765309').members;
+        message.reply("Il y a actuellement " + membersWithRole + " membres bac.");
+    }
+
 
     if(message.content.includes("!upgrade") && message.channelId == "883802351570391040"){
         if ((!user === undefined) || args.length >= 0) {
