@@ -35,9 +35,14 @@ client.on("messageCreate", function(message) {
     const user = message.mentions.users.first();
     let mention = message.mentions.members.first();
 
-    if(message.content.includes("!membres") && message.channelId == "887755721360429056"){
+    if(message.content.includes("!membres") && message.channelId == "857313632186400808"){
         let membersWithRole = message.guild.roles.cache.get('862448360627765309').members.size;
-        message.reply("Il y a actuellement " + membersWithRole + " membres bac.");
+        let membersWithRoleForma = message.guild.roles.cache.get('862447811715006515').members.size;
+        let membersWithRoleGer = message.guild.roles.cache.get('862447727332556800').members.size;
+        message.channel.send('Composition de la Brigade Anti Crimininalité.');
+        message.channel.send('Gérance BAC: ' + membersWithRoleGer);
+        message.channel.send('Formateur BAC: ' + membersWithRoleForma);
+        message.channel.send('Formateur BAC: ' + membersWithRoleGer);
     }
 
 
