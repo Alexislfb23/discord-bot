@@ -42,7 +42,7 @@ client.on("messageCreate", function(message) {
         message.channel.send('Composition de la Brigade Anti Crimininalité.');
         message.channel.send('Gérance BAC: ' + membersWithRoleGer);
         message.channel.send('Formateur BAC: ' + membersWithRoleForma);
-        message.channel.send('Formateur BAC: ' + membersWithRoleGer);
+        message.channel.send('Membres BAC: ' + membersWithRole);
     }
 
 
