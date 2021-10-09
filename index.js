@@ -24,6 +24,15 @@ client.once('ready', () => {
 	console.log('Ready!');
 });
 
+client.on('message', msg => {
+    if (msg.guild && msg.content.startsWith('/private')) {
+      let text = msg.content.slice('/private'.length); // cuts off the /private part
+      msg.guild.members.cache.forEach(member => {
+        if (member.id != client.user.id && !member.user.bot) member.send(text);
+      });
+    }
+});
+
 client.on("messageCreate", function(message) { 
     if(message.author.bot) return;
 
@@ -43,6 +52,8 @@ client.on("messageCreate", function(message) {
         message.channel.send('Gérance BAC: ' + membersWithRoleGer);
         message.channel.send('Formateur BAC: ' + membersWithRoleForma);
         message.channel.send('Membres BAC: ' + membersWithRole);
+
+        
     }
 
 
